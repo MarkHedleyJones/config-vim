@@ -23,7 +23,7 @@ function! HLNext (blinktime)
     redraw
 endfunction
 
-
+au BufRead,BufNewFile *.txt,*.tex set wrap linebreak nolist textwidth=79 wrapmargin=0 fo=aw2tq
 
 set modeline
 set number
@@ -54,7 +54,7 @@ set guifont=Terminus\ 9
 
 
 """ Press F10 to toggle highlighting on/off, and show current value.
-nnoremap <F10> :set hlsearch! hlsearch?<CR> 
+"""nnoremap <F10> :set hlsearch! hlsearch?<CR> 
 
 set ruler
 set showcmd

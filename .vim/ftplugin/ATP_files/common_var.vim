@@ -1,4 +1,4 @@
-" ATP project vim script: Mon Dec 09, 2013 at 03:24 PM +1300.
+" ATP project vim script: Tue Jun 17, 2014 at 05:57 PM +1200.
 
 let g:atp_LatexPackages = []
 let g:atp_LatexClasses = []
